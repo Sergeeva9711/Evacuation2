@@ -1,0 +1,17 @@
+C:\Users\Aleksandra\Documents\Visual Studio 2015\Projects\Evacuation\Evacuation.Bll\obj\Debug\Evacuation.Bll.csprojResolveAssemblyReference.cache
+C:\Users\Aleksandra\Documents\Visual Studio 2015\Projects\Evacuation\Evacuation.Bll\bin\Debug\Evacuation.Bll.dll
+C:\Users\Aleksandra\Documents\Visual Studio 2015\Projects\Evacuation\Evacuation.Bll\bin\Debug\Evacuation.Bll.pdb
+C:\Users\Aleksandra\Documents\Visual Studio 2015\Projects\Evacuation\Evacuation.Bll\bin\Debug\AutoMapper.dll
+C:\Users\Aleksandra\Documents\Visual Studio 2015\Projects\Evacuation\Evacuation.Bll\bin\Debug\Evacuation.Dal.dll
+C:\Users\Aleksandra\Documents\Visual Studio 2015\Projects\Evacuation\Evacuation.Bll\bin\Debug\Ninject.dll
+C:\Users\Aleksandra\Documents\Visual Studio 2015\Projects\Evacuation\Evacuation.Bll\bin\Debug\Ninject.Web.Common.dll
+C:\Users\Aleksandra\Documents\Visual Studio 2015\Projects\Evacuation\Evacuation.Bll\bin\Debug\EntityFramework.dll
+C:\Users\Aleksandra\Documents\Visual Studio 2015\Projects\Evacuation\Evacuation.Bll\bin\Debug\Evacuation.Dal.pdb
+C:\Users\Aleksandra\Documents\Visual Studio 2015\Projects\Evacuation\Evacuation.Bll\bin\Debug\AutoMapper.xml
+C:\Users\Aleksandra\Documents\Visual Studio 2015\Projects\Evacuation\Evacuation.Bll\bin\Debug\Ninject.xml
+C:\Users\Aleksandra\Documents\Visual Studio 2015\Projects\Evacuation\Evacuation.Bll\bin\Debug\Ninject.Web.Common.xml
+C:\Users\Aleksandra\Documents\Visual Studio 2015\Projects\Evacuation\Evacuation.Bll\bin\Debug\EntityFramework.xml
+C:\Users\Aleksandra\Documents\Visual Studio 2015\Projects\Evacuation\Evacuation.Bll\obj\Debug\Evacuation.Bll.dll
+C:\Users\Aleksandra\Documents\Visual Studio 2015\Projects\Evacuation\Evacuation.Bll\obj\Debug\Evacuation.Bll.pdb
+C:\Users\Aleksandra\Documents\Visual Studio 2015\Projects\Evacuation\Evacuation.Bll\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Aleksandra\Documents\Visual Studio 2015\Projects\Evacuation\Evacuation.Bll\bin\Debug\WebActivatorEx.dll
