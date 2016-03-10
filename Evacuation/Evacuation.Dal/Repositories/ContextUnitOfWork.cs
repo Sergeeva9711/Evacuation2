@@ -11,18 +11,16 @@ namespace Evacuation.Dal.Repositories
 {
     public class ContextUnitOfWork 
     {
-        private UserContext db;
-       // private ProjectContext pc;
+        private UserContext db;       
         private UserRepository userRepository;
         private ProjectRepository projectRepository;
 
         public ContextUnitOfWork()
         {
-            db = new UserContext();
-           // pc = new ProjectContext();
+            db = new UserContext();           
         }
 
-        public IRepository<User> Users
+        public UserRepository Users
         {
             get
             {
@@ -32,7 +30,7 @@ namespace Evacuation.Dal.Repositories
             }
         }
 
-        public IRepository<Project> Projects
+        public ProjectRepository Projects
         {
             get
             {

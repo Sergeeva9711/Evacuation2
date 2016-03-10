@@ -56,9 +56,9 @@
     <Compile Include="Interfaces\IUnitOfWorkFactory.cs" />
     <Compile Include="Interfaces\IUnitOfWorkFactoryPerCall.cs" />
     <Compile Include="Interfaces\IUnitOfWorkFactoryPerRequest.cs" />
-    <Compile Include="Migrations\201602251158092_CreateDb.cs" />
-    <Compile Include="Migrations\201602251158092_CreateDb.Designer.cs">
-      <DependentUpon>201602251158092_CreateDb.cs</DependentUpon>
+    <Compile Include="Migrations\201603100904104_Db.cs" />
+    <Compile Include="Migrations\201603100904104_Db.Designer.cs">
+      <DependentUpon>201603100904104_Db.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -72,8 +72,8 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201602251158092_CreateDb.resx">
-      <DependentUpon>201602251158092_CreateDb.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201603100904104_Db.resx">
+      <DependentUpon>201603100904104_Db.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

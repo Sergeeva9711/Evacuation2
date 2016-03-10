@@ -52,6 +52,16 @@ namespace Evacuation.Bll.Services
             return database.ContextUnitOfWork.Users.GetAll();
         }
 
+        public void GetUserEmailAndPassvord(User user)
+        {
+            database.ContextUnitOfWork.Users.GetUserEmailAndPassvord(user);
+        }
+
+        public int GetUserId(string email)
+        {
+            return database.ContextUnitOfWork.Users.GetUserId(email).UserID;
+        }
+
         public void Dispose()
         {
             database.Dispose();

@@ -7,6 +7,5 @@ C:\Users\Aleksandra\Documents\Visual Studio 2015\Projects\Evacuation\Evacuation.
 C:\Users\Aleksandra\Documents\Visual Studio 2015\Projects\Evacuation\Evacuation.Dal\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Aleksandra\Documents\Visual Studio 2015\Projects\Evacuation\Evacuation.Dal\obj\Debug\Evacuation.Dal.dll
 C:\Users\Aleksandra\Documents\Visual Studio 2015\Projects\Evacuation\Evacuation.Dal\obj\Debug\Evacuation.Dal.pdb
-C:\Users\Aleksandra\Documents\Visual Studio 2015\Projects\Evacuation\Evacuation.Dal\obj\Debug\Evacuation.Dal.Migrations.CreateDb.resources
+C:\Users\Aleksandra\Documents\Visual Studio 2015\Projects\Evacuation\Evacuation.Dal\obj\Debug\Evacuation.Dal.Migrations.Db.resources
 C:\Users\Aleksandra\Documents\Visual Studio 2015\Projects\Evacuation\Evacuation.Dal\obj\Debug\Evacuation.Dal.csproj.GenerateResource.Cache
-C:\Users\Aleksandra\Documents\Visual Studio 2015\Projects\Evacuation\Evacuation.Dal\obj\Debug\Evacuation.Dal.csprojResolveAssemblyReference.cache

@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - My ASP.NET Application</title>   
+    <title>@ViewBag.Title - My ASP.NET Application</title>
     @Html.Partial("~/Views/Home/Partial.cshtml") 
 </head>
 <body class="page-body">
@@ -17,25 +17,19 @@
                     </a>
                 </div>
                 <!-- main menu -->
-                <ul class="navbar-nav">
+                <ul class="navbar-nav">    
                     <li>
-                        <a href="~/User/Users">
+                        <a href="~/LogIn/Userpage">
                             <i class="fa fa-user"></i>
-                            <span>Users</span>
+                            <span>User page</span>
                         </a>
-                    </li>
+                    </li>                  
                     <li>
-                        <a href="~/Project/Projects">
+                        <a href="~/LogIn/Projects">
                             <i class="fa fa-folder-open"></i>
                             <span>Projects</span>
                         </a>
-                    </li>
-                    @*<li>
-                        <a href="~/Account/Login">
-                            <i class="glyphicon glyphicon-user"></i>
-                            <span>Login</span>
-                        </a>
-                    </li>*@
+                    </li>                   
                     <li id="search" class="root-level">
                         <!-- add class "search-input-collapsed" to auto collapse search input -->
                         <form method="get" action="">
@@ -44,16 +38,16 @@
                                 <i class="entypo-search"></i>
                             </button>
                         </form>
-                    </li>               
-                </ul>                
-                <ul class="nav navbar-right pull-right">
-                    <li class="sep"></li>
-                    <li>
-                        <a href="~/LogIn/Login">
-                            Log In <i class="glyphicon glyphicon-log-in right"></i>
-                        </a>
                     </li>
                 </ul>
+                <ul class="nav navbar-right pull-right">
+                        <li class="sep"></li>
+                        <li>
+                            <a href="~/LogIn/LogOut">
+                                Log Out <i class="glyphicon glyphicon-log-out right"></i>
+                            </a>
+                        </li>
+                    </ul>
             </div>
         </header>
         <div class="main-content">
@@ -72,8 +66,8 @@
 
 
     @*@Scripts.Render("~/bundles/jquery")
-    @Scripts.Render("~/bundles/bootstrap")
-    @Scripts.Render("~/bundles/myscript")*@
+        @Scripts.Render("~/bundles/bootstrap")
+        @Scripts.Render("~/bundles/myscript")*@
     @RenderSection("scripts", required: false)
 </body>
 </html>

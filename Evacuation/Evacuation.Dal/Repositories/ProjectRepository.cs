@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Evacuation.Dal.Repositories
 {
-    class ProjectRepository : IRepository<Project>
+    public class ProjectRepository : IRepository<Project>
     {       
         private UserContext db;
 
@@ -20,12 +20,14 @@ namespace Evacuation.Dal.Repositories
 
         public void Create(Project item)
         {
+            item.IsDeleted = false;
             db.Projects.Add(item);
         }
 
         public void Delete(Project item)
         {
             var project = db.Projects.Find(item.ProjectID);
+            project.IsDeleted = true;
             if (project != null)
                 db.Projects.Remove(project);
         }

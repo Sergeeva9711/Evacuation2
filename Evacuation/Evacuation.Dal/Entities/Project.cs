@@ -13,6 +13,7 @@ namespace Evacuation.Dal.Entities
         private DateTime data_time = DateTime.Now;
 
         public int ProjectID { get; set; }
+
         public string Name { get; set; }
 
         [DataType(DataType.DateTime)]
@@ -37,6 +38,8 @@ namespace Evacuation.Dal.Entities
         public DateTime DataEnd { get; set; }
 
         public byte[] Image { get; set; }
+
+        public bool IsDeleted { get; set; }
 
     }
 }

@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Evacuation.Dal.Context
 {
-     class UserContext: DbContext
+    public class UserContext: DbContext
     {
         public DbSet<User> Users { get; set; }
         public DbSet<Project> Projects { get; set; }

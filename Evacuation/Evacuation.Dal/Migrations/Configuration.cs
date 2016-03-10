@@ -1,5 +1,6 @@
 namespace Evacuation.Dal.Migrations
 {
+    using Entities;
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Migrations;
@@ -14,18 +15,8 @@ namespace Evacuation.Dal.Migrations
 
         protected override void Seed(Evacuation.Dal.Context.UserContext context)
         {
-            //  This method will be called after migrating to the latest version.
-
-            //  You can use the DbSet<T>.AddOrUpdate() helper extension method 
-            //  to avoid creating duplicate seed data. E.g.
-            //
-            //    context.People.AddOrUpdate(
-            //      p => p.FullName,
-            //      new Person { FullName = "Andrew Peters" },
-            //      new Person { FullName = "Brice Lambson" },
-            //      new Person { FullName = "Rowan Miller" }
-            //    );
-            //
+            context.Users.Add(new User { FirstName = "Sasha", LastName = "Serhieva", Age = 18, Email = "2857sasha2661@mail.ru", UserName = "Admin", Password = "arctur199711", ConfirmPassword = "arctur199711" });
+            context.SaveChanges();
         }
     }
 }

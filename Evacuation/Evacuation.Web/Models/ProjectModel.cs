@@ -1,9 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
-using System.Linq;
-using System.Web;
 
 namespace Evacuation.Web.Models
 {
@@ -36,7 +32,9 @@ namespace Evacuation.Web.Models
         [DataType(DataType.Date)]
         public DateTime DataEnd { get; set; }
 
-        public byte[] Image { get; set; }        
+        public byte[] Image { get; set; }
+
+        public bool IsDeleted { get; set; }
 
     }
 }

@@ -46,19 +46,24 @@ namespace Evacuation.Web
                 "~/assets/css/custom.css",
                 "~/assets/js/select2/select2.css"
             );
-            bundles.Add(bundle);          
-
+            bundles.Add(bundle);                
+                 
+                
             var bundle1 = new ScriptBundle("~/assests/js/virtual.js");
             bundle1.Include(
                 "~/assets/js/jquery-1.11.0.min.js",
                 "~/assets/js/bootstrap.js",
-                "~/assets/js/neon-custom.js"              
+                "~/assets/js/neon-custom.js",
+                "~/assets/js/gsap/main-gsap.js",
+                "~/assets/js/jquery-ui/js/jquery-ui-1.10.3.minimal.min.js",
+                "~/assets/js/joinable.js",
+                "~/assets/js/resizeable.js",
+                "~/assets/js/neon-api.js",
+                "~/assets/js/jquery.validate.min.js",
+                "~/assets/js/neon-login.js",
+                "~/assets/js/neon-demo.js"
                 );
             bundles.Add(bundle1);
-
-           
-
-
         }
     }
 }

@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace Evacuation.Dal.Repositories
 {
-    class UserRepository : IRepository<User>
+    public class UserRepository : IRepository<User>
     {
         private UserContext db;
 
@@ -21,12 +21,14 @@ namespace Evacuation.Dal.Repositories
 
         public void Create(User item)
         {
-            db.Users.Add(item);
+            item.IsDeleted = false;
+            db.Users.Add(item);            
         }
 
         public void Delete(User item)
         {
             var us = db.Users.Find(item.UserID);
+            us.IsDeleted = true;
             if(us!=null)
                 db.Users.Remove(us);
         }
@@ -50,6 +52,16 @@ namespace Evacuation.Dal.Repositories
         {            
             var us = db.Users.Find(item.UserID);
             db.Entry(us).CurrentValues.SetValues(item);
+        }
+
+        public User GetUserEmailAndPassvord(User user)
+        {
+            return db.Users.Where(u => u.Email == user.Email & u.Password == user.Password).FirstOrDefault();
+        }
+
+        public User GetUserId(string email)
+        {
+            return db.Users.Where(u => u.Email == email).FirstOrDefault();
         }
     }
 }
